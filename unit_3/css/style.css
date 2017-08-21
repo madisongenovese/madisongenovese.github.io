@@ -9,7 +9,7 @@ body {
 }
 
 
-div{
+header{
 	position: absolute;
 	top:50%;
 	left:50%;
@@ -48,7 +48,7 @@ h3{
 	padding: 60px;
 }
 
-header {
+div {
 	position: fixed;
 	top: 0;
 	left: 0;
