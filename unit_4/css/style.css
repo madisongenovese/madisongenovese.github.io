@@ -43,16 +43,34 @@ a.brand{
 	position: fixed;
 	top: 50%;
 	left: 20%;
-	margin-left: -60px;
-	margin-top: -29px;
-	width: 250px;
-	font-size: 50px;
+	margin-left: -95px;
+	margin-top: -40px;
+	width: 300px;
+	font-size: 70px;
 	text-align: center;
 	color: #FFF;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 3px black; 
+	text-shadow: 2px 2px 4px black; 
 	z-index: 100;
+	
+}
+p.artist_name{
+	display: block;
+	position: fixed;
+	top: 60%;
+	left: 20.5%;
+	margin-left: -60px;
+	margin-top: -29px;
+	width: 250px;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black; 
+	z-index: 100;
+	
 }
 .page {
 	position:absolute;
