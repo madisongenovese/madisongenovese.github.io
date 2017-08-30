@@ -142,6 +142,7 @@ p.artist_name{
 	background: #000;
 	background-image: url(../images/IMG_5104.JPG.jpeg);
 	transition: opacity 0.45s ease-out;
+	background-repeat: no-repeat;
 
 }
 .showtime .home-text{
