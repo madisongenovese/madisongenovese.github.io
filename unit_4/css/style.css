@@ -139,7 +139,7 @@ p.artist_name{
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background: #000;
+	background: #FFFFFF;
 	background-image: url(../images/IMG_5104.JPG.jpeg);
 	transition: opacity 0.45s ease-out;
 	background-repeat: no-repeat;
