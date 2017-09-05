@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: "Optima", "Times New Roman", Times, serif;
+	color: black;
+	line-height:1;
+	margin: 0;
+	display: block;
+}
+html {
+	font-size: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+	display: block;
+}
+
+a, a:visited {
+	color: black;
+
+}
+h1, h2, h3, h4, h5, p{
+	margin: 0;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+h4{
+	font-size: 14px;
+	font-family: "Inconsolata", Courier, monospace;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	display: block;
+}
+p {
+	line-height: 1.8;
+}
+a.brand{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 20%;
+	margin-left: -95px;
+	margin-top: -40px;
+	width: 375px;
+	font-size: 70px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px black; 
+	z-index: 100;
+	background-color: #FFED74;
+	
+}
+p.artist_name{
+	display: block;
+	position: fixed;
+	top: 60%;
+	left: 20.5%;
+	margin-left: -60px;
+	margin-top: -29px;
+	width: 250px;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black; 
+	z-index: 100;
+	background-color: #FFED74;
+	
+}
+.page {
+	position:absolute;
+	width: 100%;
+}
+
+.nav.nav-split {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 1.4rem 4rem 0;
+	background-color: #E8C66A;
+}
+.nav{
+	padding-top: 1rem; 
+	text-align: center;
+	z-index: 50
+	background-color: #E8C66A;
+}
+.nav .nav-links{
+	margin-bottom: 2.2rem;
+	background-color: #FFE2B8;
+}
+.nav .nav-link{
+	display: inline-block;
+	margin: 0 1rem;
+	padding-bottom: 0.1rem;
+	font-family: "Inconsolata", Courier, monospace;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	border-bottom: 1px solid transparent;
+}
+.nav-split .nav-brand {
+	display: none;
+}
+.nav.nav-brand {
+	max-width: 110px;
+	font-size: 1.8rem;
+	margin: 0 auto;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.home-gallery{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	transition: background 0.45s ease-in;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #FFE2B8;
+}
+.home-gallery{
+	width: 50%;
+}
+.showtime .gallery-overlay{
+	opacity: 0;
+}
+.gallery-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #FFFFFF;	
+	background-image: url(../images/IMG_5104.JPG.jpeg);
+	transition: opacity 0.45s ease-out;
+	background-repeat: no-repeat;
+	background-color: #FFE2B8;
+}
+.showtime .home-text{
+	opacity: 1;
+}
+.home-text {
+	float: right;
+	padding: 0 2rem;
+	text-align: center;
+	height: 100vh;
+	transition: opacity 0.25s ease-in;
+	background-color: #FFE2B8;
+}
+.home-gallery, .home-text{
+	width: 50%;
+}
+.home-text .home-text-intro {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #FFED74;
+}
+.home-text h1{
+	max-width: 28rem;
+	margin: 0 auto 1rem;
+}
+.supersize {
+	font-size: 50px;
+	letter-spacing: 3px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.home-text .footer{
+	width: 50%;
+	left: 50%;
+	padding: 0 2rem;
+	position: absolute;
+	bottom: 1.4rem;
+}
+.footer{
+	text-align: center;
+	background-color: #FF957E;
+}
+.footer .footer-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.footer .footer-social {
+	float: left;
+	margin-bottom: 0;
+}
+.footer p{
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	font-family: "Inconsolata", Courier, monospace;
+	letter-spacing: 1.5px;
+	font-variant-ligatures: no-common-ligatures;
+	margin: 0 1rem;
+	color: black;
+	border-bottom: 1px solid transparent;
+}
+.footer a{
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid transparent;
+	text-decoration: none;
+	color: black;
+	margin: 0 1rem;
+}
+.page .brand{
+	transition: opacity 200ms linear;
+}
